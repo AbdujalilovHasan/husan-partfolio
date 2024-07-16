@@ -123,6 +123,7 @@ document.querySelector('.contact-item-inner').addEventListener('click', function
 
 // show hide card
 
+let ShowBtn = document.querySelector('.ShowCard-button')
 let cards = document.querySelectorAll(".portfolio-item");
 let btn = document.getElementById('sendButton');
 
@@ -134,7 +135,7 @@ function showCards() {
     if (btn.innerHTML === "Show Card") {
         btn.innerHTML = "Hide Cards";
     } else {
-        btn.innerHTML = "Send Message";
+        ShowBtn.innerHTML = "Reduce images";
     }
 }
 
