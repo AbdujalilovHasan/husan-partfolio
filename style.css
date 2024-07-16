@@ -1138,3 +1138,7 @@ footer .copyright-text {
 .showCard {
     display: block;
 }
+
+img {
+    pointer-events: none;
+}

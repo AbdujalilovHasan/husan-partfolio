@@ -143,3 +143,7 @@ btn.addEventListener('click', function() {
     showCards();
 });
 
+
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
